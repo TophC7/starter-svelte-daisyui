@@ -1,4 +1,6 @@
 {
+	"bracketSameLine": true,
+	"bracketSpacing": true,
 	"overrides": [
 		{
 			"files": "*.svelte",
@@ -7,10 +9,16 @@
 			}
 		}
 	],
-	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+	"plugins": [
+		"prettier-plugin-svelte",
+		"prettier-plugin-tailwindcss"
+	],
 	"pluginSearchDirs": false,
-	"printWidth": 100,
+	"printWidth": 120,
+	"singleAttributePerLine": false,
 	"singleQuote": true,
-	"trailingComma": "none",
-	"useTabs": true
+	"svelteAllowShorthand": true,
+	"svelteIndentScriptAndStyle": true,
+	"tabWidth": 2,
+	"trailingComma": "none"
 }

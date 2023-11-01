@@ -9,12 +9,18 @@
 			"command": "npm run dev"
 		},
 		{
-			"label": "Start bun server",
+			"label": "Start dev server pnpm",
 			"type": "shell",
-			"command": "bun --bun run --hot dev"
+			"command": "pnpm run dev",
+			// 	Uncomment to run when open
 			// "runOptions": {
 			// 	"runOn": "folderOpen"
 			// }
-		}
+		},
+		{
+			"label": "Start dev server bun",
+			"type": "shell",
+			"command": "bun --bun run --hot dev"
+		},
 	]
 }
